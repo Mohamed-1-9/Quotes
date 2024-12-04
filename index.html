@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: black;
+            color: white;
+            text-align: center;
+            h1{
+                font-size: 50px;
+                font-weight: 900;
+            }
+            h2{
+                font-size: 30px;
+                margin-top: 20px;
+            }
+            button{
+                background-color: red;
+                padding: 20px;
+                border-radius: 20px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 600;
+                border: transparent;
+            }
+            button:hover{
+                background-color: rgb(226, 181, 32);
+                
+            }
+            blockquote{
+                font-size: 40px;
+            }
+            p{
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Quote of the Day</h1>
+    <h2>Press the button below to recieve a random quote!</h2>
+    <button onclick="displayQuote()">New Quote</button>
+    <div id="container">
+        
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
